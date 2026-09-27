@@ -309,21 +309,22 @@ h2 {
   gap: 24px 28px;
   margin: 24px 0;
 }
-.stat { display: flex; align-items: flex-start; gap: 12px; }
+.stat { }
+.stat-top { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
 .stat-icon {
   flex-shrink: 0;
-  width: 34px;
-  height: 34px;
-  border-radius: 9px;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
   background: var(--accent-soft);
   color: var(--accent);
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.stat-icon svg { width: 18px; height: 18px; }
+.stat-icon svg { width: 16px; height: 16px; }
 .stat .num { font-size: 30px; font-weight: 700; color: var(--accent); font-family: var(--mono); line-height: 1.1; }
-.stat .label { font-size: 13px; color: var(--text-2); margin-top: 4px; }
+.stat .label { font-size: 13px; color: var(--text-2); }
 .case-study ul { padding-left: 20px; margin: 12px 0; }
 .case-study li { margin-bottom: 8px; font-size: 15px; }
 
