@@ -304,14 +304,14 @@ h2 {
 }
 .case-meta strong { color: var(--text-2); }
 .stat-row {
-  display: flex;
-  gap: 32px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px 28px;
   margin: 24px 0;
-  flex-wrap: wrap;
 }
 .stat { }
-.stat .num { font-size: 30px; font-weight: 700; color: var(--accent); font-family: var(--mono); }
-.stat .label { font-size: 13px; color: var(--text-2); }
+.stat .num { font-size: 30px; font-weight: 700; color: var(--accent); font-family: var(--mono); line-height: 1.1; }
+.stat .label { font-size: 13px; color: var(--text-2); margin-top: 4px; }
 .case-study ul { padding-left: 20px; margin: 12px 0; }
 .case-study li { margin-bottom: 8px; font-size: 15px; }
 
@@ -419,6 +419,7 @@ footer {
   .project-card.span-2 .project-inner { grid-template-columns: 1fr; }
   .cert-grid { grid-template-columns: 1fr; }
   .two-col-grid { grid-template-columns: 1fr; }
+  .stat-row { grid-template-columns: repeat(2, 1fr); }
   .nav-links { display: none; }
 }
 
