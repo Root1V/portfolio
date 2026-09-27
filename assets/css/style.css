@@ -439,6 +439,9 @@ footer {
   .cert-grid { grid-template-columns: 1fr; }
   .two-col-grid { grid-template-columns: 1fr; }
   .stat-row { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 840px) {
   .nav-links { display: none; }
 }
 
