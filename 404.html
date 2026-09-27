@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Page not found — Victor Espiritu Santiago</title>
+<meta name="robots" content="noindex" />
+<script>
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem("theme"); } catch (e) {}
+    var theme = saved || (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", theme);
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css?v=3" />
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png" />
+<meta name="theme-color" content="#0b0f19" />
+<style>
+  .notfound-wrap {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .notfound-code {
+    font-family: var(--mono);
+    font-size: 15px;
+    color: var(--accent);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  .notfound-wrap h1 {
+    font-size: 34px;
+    color: var(--text-0);
+    margin: 0 0 14px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .notfound-wrap p {
+    font-size: 16px;
+    color: var(--text-2);
+    max-width: 440px;
+    margin: 0 0 28px;
+  }
+</style>
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html" style="text-decoration:none;">Root1V</a>
+  </div>
+</header>
+
+<div class="notfound-wrap">
+  <div class="notfound-code">404</div>
+  <h1>This page doesn't exist</h1>
+  <p>The link may be broken, or the page may have moved. Let's get you back on track.</p>
+  <a class="btn btn-primary" href="index.html">Back to the homepage</a>
+</div>
+
+<footer>
+  © <span id="year"></span> Victor Espiritu Santiago — AI &amp; Enterprise Architecture
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
