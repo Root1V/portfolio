@@ -129,6 +129,28 @@ header.site-nav {
   line-height: 1;
 }
 .theme-toggle:hover { border-color: var(--accent); color: var(--text-0); }
+.nav-actions { gap: 10px; }
+.lang-toggle {
+  display: inline-flex;
+  height: 36px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: var(--mono);
+  font-size: 12px;
+}
+.lang-toggle button {
+  background: transparent;
+  border: 0;
+  color: var(--text-2);
+  padding: 0 10px;
+  cursor: pointer;
+  font: inherit;
+  letter-spacing: 0.04em;
+}
+.lang-toggle button + button { border-left: 1px solid var(--border); }
+.lang-toggle button:hover { color: var(--text-0); }
+.lang-toggle button.active { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
 
 /* Hero — full-bleed building photo with a frosted glass panel on top */
 .hero-full {
@@ -445,11 +467,21 @@ footer {
   .nav-links { display: none; }
 }
 
+@media (max-width: 480px) {
+  .nav-inner { padding: 12px 16px; }
+  .brand { font-size: 14px; white-space: nowrap; }
+  .nav-actions { gap: 8px; flex-wrap: nowrap; }
+  .lang-toggle { height: 32px; font-size: 11px; }
+  .lang-toggle button { padding: 0 8px; }
+  .theme-toggle { width: 32px; height: 32px; }
+  .nav-actions .btn { padding: 8px 12px; font-size: 13px; }
+}
+
 /* Print */
 @media print {
   * { box-shadow: none !important; text-shadow: none !important; backdrop-filter: none !important; }
   html, body { background: #ffffff !important; color: #111 !important; }
-  .site-nav, .theme-toggle, .hero-cta .btn, .spacer-for-panel { display: none !important; }
+  .site-nav, .theme-toggle, .lang-toggle, .hero-cta .btn, .spacer-for-panel { display: none !important; }
   .hero-full { background: none !important; min-height: auto !important; padding: 10px 0 20px; }
   .hero-full::before { display: none !important; }
   .glass-panel {
