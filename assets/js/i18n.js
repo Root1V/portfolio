@@ -77,7 +77,7 @@
       "tl4.p": "Arquitecto responsable de definir la estrategia e implementar en el país la arquitectura transaccional (APX) y la Cloud privada (Ether) del Grupo. En 2018 tuve una asignación internacional en la sede de BBVA en Madrid para diseñar una arquitectura de microservicios en contenedores sobre gRPC para la plataforma de Cloud híbrida del Grupo.",
       "tl5.h4": "Arquitecto PaaS (Platform as a Service) — BBVA Perú",
       "tl5.p": "Lideré la evolución de la plataforma de servicios y APIs del banco (ASO) y fui el arquitecto responsable de la arquitectura Mainframe en el país, definiendo los estándares de adopción e integración orientados a microservicios y arquitectura basada en eventos.",
-      "tl6.h4": "Arquitecto de TI / Analista SOA — Equifax",
+      "tl6.h4": "Arquitecto de Soluciones / Arquitecto de TI — Equifax",
       "tl6.p": "Arquitecto de soluciones responsable del diseño de proyectos críticos y estratégicos de la empresa (Autoservicio, Smart SVI, Datamart Financiero) y de pipelines de procesamiento de datos a gran escala (OSTRA).",
       "tl7.h4": "Líder Técnico de Software — CSTI, Softmarkperu, Universidad JFSC",
       "tl7.p": "Lideré equipos de desarrollo multidisciplinarios para construir sistemas en Java/Spring, PHP y .NET para clientes de salud, telecomunicaciones y sector público: la base práctica en la que todavía se apoyan mis decisiones de arquitectura.",

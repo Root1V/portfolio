@@ -237,7 +237,7 @@ Arquitecto PaaS (Platform as a Service) — BBVA Perú
 Lideré la evolución de la plataforma de servicios y APIs del banco (ASO) y fui el Arquitecto responsable de la Arquitectura Mainframe en el pais, donde definí estándares de adopción, integracion, orientadas a microservicios y arquitectura orientada a eventos.
 
 ### tl6.h4
-Arquitecto de TI / Analista SOA — Equifax
+Arquitecto de Soluciones / Arquitecto de TI — Equifax
 
 ### tl6.p
 Fui el Arquitecto de Soluciones responsable de diseñar proyectos críticos y estrategicos de la empresa (Autoservicio, Smart SVI, Datamart Financiero) y de pipelines de procesamiento de datos a gran escala (OSTRA).
