@@ -183,7 +183,7 @@ Setiembre 2026 · Lima, Perú
 Panel C-level — Construyendo un Ecosistema de IA para el Perú
 
 ### speak.c1.p
-Invitado a representar a BBVA Perú en un panel ante un club privado de ejecutivos C-level de empresas peruanas e internacionales, junto a representantes de Microsoft y Sonda y la PCM (estado). Ademas me generaron una estrvista para los medicos y sali en la rebista de Semana Economica como lider de IA representando al banco en una revista para ejecutivos de la banca peruana.
+Invitado a representar a BBVA Perú en un panel ante un club privado de ejecutivos C-level de empresas peruanas e internacionales, junto a representantes de Microsoft, Sonda y la PCM. Después del evento, Semana Económica publicó una entrevista y mi perfil como líder de IA del banco en su revista para ejecutivos de la banca peruana.
 
 ### speak.c2.meta
 Junio 2026 · Lima, Perú
