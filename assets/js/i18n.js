@@ -59,7 +59,7 @@
       "speak.h2": "Contar la estrategia, no solo construirla",
       "speak.c1.meta": "Setiembre 2026 · Lima, Perú",
       "speak.c1.h4": "Panel C-level — Construyendo un ecosistema de IA para el Perú",
-      "speak.c1.p": "Invitado a representar a BBVA Perú en un panel ante un club privado de ejecutivos C-level de empresas peruanas e internacionales, junto a representantes de Microsoft, Sonda y la PCM. Antes del evento, Semana Económica publicó una entrevista y mi perfil como líder de IA del banco en su revista para ejecutivos de la banca peruana.",
+      "speak.c1.p": "Invitado a representar a BBVA Perú en un panel ante un club privado de ejecutivos C-level de empresas peruanas e internacionales, junto a representantes de Microsoft, Sonda y la PCM. Después del evento, Semana Económica publicó una entrevista y mi perfil como líder de IA del banco en su revista para ejecutivos de la banca peruana.",
       "speak.c2.meta": "Junio 2026 · Lima, Perú",
       "speak.c2.h4": "Speaker — Investors Peru Event",
       "speak.c2.p": "Expuse cómo BBVA ejecuta su estrategia de IA en su camino a ser el banco del futuro, y compartí con clientes institucionales experiencias y buenas prácticas aterrizadas en casos de uso concretos que pueden adoptar en sus propias organizaciones.",
