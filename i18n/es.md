@@ -222,7 +222,7 @@ Sponsor y Product Owner de la transformación del core bancario global (Alpha). 
 Manager de Arquitectura Backend — BBVA Perú
 
 ### tl3.p
-Fui el arquitecto responsable de definir la estrategia de evolución de las arquitecturas backend del banco —ASO, APX y Mainframe— y de su plataforma de Cloud privada (Ether) en el país. Fui profesor de estándares de arquitectura en la Tech University de BBVA (2018–2020).
+Amplié el alcance a todo el backend del banco: fui el arquitecto responsable de la estrategia de evolución de las arquitecturas ASO, APX y Mainframe y de la plataforma de Cloud privada (Ether) en el país, liderando equipos internos y externos. Fui profesor de estándares de arquitectura en la Tech University de BBVA (2018–2020).
 
 ### tl4.h4
 Arquitecto de APX y Cloud Privada — BBVA Perú
