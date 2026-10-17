@@ -192,7 +192,7 @@ Junio 2026 · Lima, Perú
 Speaker - Investors Peru Event
 
 ### speak.c2.p
-Expuse cómo BBVA lleva su estrategia de IA y busca convertise en el banco del Futuro y comparti con clientes institucionales experiencias y buenas paracticas aterrizándolas en casos de uso concretos que puedan tomar y adoptar en sus organizaciones.
+Representé a BBVA Perú y expuse cómo el banco ejecuta su estrategia de IA en su camino a ser el banco del futuro, y compartí con clientes institucionales experiencias y buenas prácticas aterrizadas en casos de uso concretos que pueden adoptar en sus propias organizaciones.
 
 
 ## Trayectoria
