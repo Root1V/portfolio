@@ -26,7 +26,7 @@
       "proj.mercatus": "Framework de comercio agéntico: agentes de IA que descubren, pagan y monetizan servicios de forma autónoma, con adaptadores de liquidación intercambiables para x402 (USDC) y AP2 (basado en mandatos).",
       "proj.veritium": "Plataforma de inteligencia documental agéntica lista para producción: arquitectura hexagonal, bucle de extracción ReAct acotado, motor de validación de 6 categorías con reglas CEL configurables, grounding determinista y trazas completas con OpenTelemetry. OCR intercambiable (Docling / PaddleOCR) y LLM/VLM vía cualquier endpoint compatible con OpenAI, sin lock-in.",
       "proj.synaptum": "Mi propio runtime y framework de agentes para Python: ejecución basada en generadores con checkpoint/resume e identidad determinista de cada paso, sin dependencias obligatorias. La orquestación multiagente está en el roadmap; todavía no está construida.",
-      "proj.aeon": "Plataforma self-hosted de harness para agentes: ejecución durable sobre Temporal, contexto y evidencia tipados, políticas aplicadas fuera del modelo, memoria gobernada e interoperabilidad nativa con LangGraph, CrewAI, OpenAI Agents SDK, Microsoft Agent Framework y Claude Agent SDK.",
+      "proj.aeon": "Plataforma Harness self-hosted para agentes: ejecución durable sobre Temporal, contexto y evidencia tipados, políticas aplicadas fuera del modelo, memoria gobernada e interoperabilidad nativa con LangGraph, CrewAI, OpenAI Agents SDK, Microsoft Agent Framework y Claude Agent SDK.",
       "proj.link": "Ver en GitHub →",
 
       "lead.label": "Caso de liderazgo",
