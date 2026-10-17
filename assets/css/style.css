@@ -83,8 +83,9 @@ header.site-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 24px;
   padding: 14px 24px;
-  max-width: 1040px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .brand {
@@ -93,8 +94,10 @@ header.site-nav {
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 0.02em;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
-.nav-links { display: flex; gap: 22px; font-size: 14px; }
+.nav-links { display: flex; gap: 22px; font-size: 14px; white-space: nowrap; }
 .nav-links a { color: var(--text-2); }
 .nav-links a:hover { color: var(--text-0); text-decoration: none; }
 .btn {
@@ -131,7 +134,7 @@ header.site-nav {
   line-height: 1;
 }
 .theme-toggle:hover { border-color: var(--accent); color: var(--text-0); }
-.nav-actions { gap: 10px; }
+.nav-actions { gap: 10px; flex-wrap: nowrap; flex-shrink: 0; }
 .lang-toggle {
   display: inline-flex;
   height: 36px;
@@ -521,7 +524,14 @@ footer {
   .stat-row { grid-template-columns: repeat(2, 1fr); }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 1120px) {
+  .nav-links { gap: 14px; font-size: 13px; }
+  .cv-btn { gap: 6px; padding: 9px 14px; }
+  .cv-label { display: none; }
+  .cv-label-short { display: inline; }
+}
+
+@media (max-width: 920px) {
   .nav-links { display: none; }
 }
 
