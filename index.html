@@ -49,7 +49,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/css/style.css?v=9" />
+<link rel="stylesheet" href="assets/css/style.css?v=10" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -106,9 +106,9 @@
         <div class="hero-eyebrow" data-i18n="hero.eyebrow">AI &amp; Enterprise Architect · BBVA Peru</div>
         <h1>Victor Espiritu Santiago</h1>
         <p class="lede" data-i18n="hero.lede">
-          I design scalable, cloud-native and agentic AI architectures — bridging business strategy,
-          emerging AI technology, and enterprise execution. 15+ years moving from software developer
-          to enterprise AI leadership, and I still ship code.
+          I design agentic AI and cloud-native architectures — bridging business strategy,
+          emerging AI technology, and enterprise execution. 15+ years in technology: from software
+          developer to leading enterprise AI, without losing touch with the technology or the business.
         </p>
         <div class="hero-cta">
           <a class="btn btn-primary" href="#projects" data-i18n="hero.view">View Projects</a>
@@ -124,41 +124,31 @@
 
   <section id="about">
     <div class="section-label" data-i18n="about.label">About</div>
-    <h2 data-i18n="about.h2">Strategy and architecture, not just one or the other</h2>
+    <h2 data-i18n="about.h2">Strategy and architecture</h2>
     <p class="lead-p" data-i18n="about.p1">
       I lead AI &amp; Cloud Architecture strategy at BBVA Peru, at the intersection of business
-      strategy, technology architecture, and innovation — defining how a regulated financial
-      institution adopts agentic AI, GenAI platforms, and cloud-native architecture without
-      compromising security or compliance.
+      strategy, technology architecture, and innovation — defining how a regulated bank adopts
+      agentic AI, GenAI platforms, and cloud-native architectures without compromising security
+      or regulatory compliance.
     </p>
     <p class="lead-p" data-i18n="about.p2">
       My path — from software developer to IT architect to today's AI &amp; Enterprise Architecture
-      lead — gives me a perspective that combines strategic vision with hands-on implementation
-      judgment: I understand both the business decisions behind an AI initiative and the
-      architectural details that determine whether it actually works in production. I've led teams
-      of up to 50 people across three architecture domains, and since my first year at BBVA I've
-      worked hand-in-hand with the Group's international architecture teams — Spain, Mexico,
-      Colombia, Argentina, Turkey — coordinating standards and solutions across geographies, not
-      just within Peru. Outside my role at BBVA, I maintain a self-hosted lab of production-grade AI
-      infrastructure — the five projects below are a snapshot of that work, all open source, no
-      vendor lock-in — and I've built a transformer LLM from scratch as self-directed study, so I
-      understand the models from the inside, not just through an API.
+      lead — gives me a perspective that combines strategic vision with implementation judgment:
+      I understand both the business decisions behind an AI initiative and the architectural
+      details that decide whether it works in production. I've led teams of up to 50 people across
+      three architecture domains, and since my first year at BBVA I've worked hand-in-hand with the
+      Group's global architecture teams — Spain, Mexico, Colombia, Argentina, among others —
+      coordinating standards and solutions across geographies, not just for Peru. Outside the bank
+      I maintain a self-hosted lab of enterprise-grade AI infrastructure: the six projects below
+      are a snapshot of that work, all open source and lock-in free. I also built an LLM from
+      scratch as personal study, so I understand the models from the inside, not just through an API.
     </p>
   </section>
 
   <section id="projects">
     <div class="section-label" data-i18n="projects.label">Selected Work</div>
-    <h2 data-i18n="projects.h2">Five projects from my public lab</h2>
+    <h2 data-i18n="projects.h2">Six projects from my public lab</h2>
     <div class="projects-grid">
-
-      <div class="project-card" style="--card-accent: var(--c-argus)">
-        <img src="assets/img/proj-argus.png" loading="lazy" alt="argus-observability-platform" />
-        <div class="project-body">
-          <h3>argus-observability-platform</h3>
-          <p data-i18n="proj.argus">OTel-native observability &amp; AIOps for AI systems — GenAI cost/token attribution and sub-2s hot-path anomaly detection. Running as a live pilot with 68k+ real spans and 229 tests.</p>
-          <a class="project-link" href="https://github.com/Root1V/argus-observability-platform" target="_blank" rel="noopener" data-i18n="proj.link">View on GitHub →</a>
-        </div>
-      </div>
 
       <div class="project-card" style="--card-accent: var(--c-prometheus)">
         <img src="assets/img/proj-prometheus.png" loading="lazy" alt="prometheus-inference-platform" />
@@ -187,14 +177,30 @@
         </div>
       </div>
 
-      <div class="project-card span-2" style="--card-accent: var(--c-synaptum)">
-        <div class="project-inner">
-          <img src="assets/img/proj-synaptum.png" loading="lazy" alt="synaptum-framework" />
-          <div class="project-body">
-            <h3>synaptum-framework</h3>
-            <p data-i18n="proj.synaptum">My own durable agent runtime for Python — generator-based execution with checkpoint/resume and deterministic step identity, zero required dependencies. Multi-agent orchestration is on the roadmap, not built yet.</p>
-            <a class="project-link" href="https://github.com/Root1V/synaptum-framework" target="_blank" rel="noopener" data-i18n="proj.link">View on GitHub →</a>
-          </div>
+      <div class="project-card" style="--card-accent: var(--c-veritium)">
+        <img src="assets/img/proj-veritium.png" loading="lazy" alt="veritium-document-intelligence" />
+        <div class="project-body">
+          <h3>veritium-document-intelligence</h3>
+          <p data-i18n="proj.veritium">Production-grade agentic document intelligence platform: hexagonal architecture, bounded ReAct extraction loop, 6-category validation engine with configurable CEL rules, deterministic grounding and full OpenTelemetry tracing. Pluggable OCR (Docling / PaddleOCR); LLM/VLM via any OpenAI-compatible endpoint — no vendor lock-in.</p>
+          <a class="project-link" href="https://github.com/Root1V/veritium-document-intelligence" target="_blank" rel="noopener" data-i18n="proj.link">View on GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card" style="--card-accent: var(--c-synaptum)">
+        <img src="assets/img/proj-synaptum.png" loading="lazy" alt="synaptum-framework" />
+        <div class="project-body">
+          <h3>synaptum-framework</h3>
+          <p data-i18n="proj.synaptum">My own durable agent runtime for Python — generator-based execution with checkpoint/resume and deterministic step identity, zero required dependencies. Multi-agent orchestration is on the roadmap, not built yet.</p>
+          <a class="project-link" href="https://github.com/Root1V/synaptum-framework" target="_blank" rel="noopener" data-i18n="proj.link">View on GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card" style="--card-accent: var(--c-aeon)">
+        <img src="assets/img/proj-aeon.png" loading="lazy" alt="aeon-agent-harness" />
+        <div class="project-body">
+          <h3>aeon-agent-harness</h3>
+          <p data-i18n="proj.aeon">Self-hosted agent harness platform: durable Temporal execution, typed context and evidence, policy enforcement outside the model, governed memory, and native interop with LangGraph, CrewAI, OpenAI Agents SDK, Microsoft Agent Framework, and Claude Agent SDK.</p>
+          <a class="project-link" href="https://github.com/Root1V/aeon-agent-harness" target="_blank" rel="noopener" data-i18n="proj.link">View on GitHub →</a>
         </div>
       </div>
 
@@ -206,25 +212,26 @@
     <h2 data-i18n="lead.h2">Leading the Core Banking transformation</h2>
     <div class="case-study">
       <div class="case-meta">
-        <span data-i18n="lead.meta.role"><strong>Role:</strong> Sponsor → Product Owner</span>
-        <span data-i18n="lead.meta.program"><strong>Program:</strong> Horizon Alpha (Holding-funded, &gt;€1M over 3 years)</span>
+        <span data-i18n="lead.meta.role"><strong>Role:</strong> Product Owner → Sponsor</span>
+        <span data-i18n="lead.meta.program"><strong>Global program:</strong> Horizon Alpha (Holding-funded, &gt;€1M over 3 years)</span>
         <span data-i18n="lead.meta.where"><strong>Where:</strong> BBVA Peru</span>
         <span data-i18n="lead.meta.when"><strong>When:</strong> 2019–2024</span>
       </div>
       <p data-i18n="lead.p1">
-        BBVA Peru needed to evolve its core banking platform to enable new digital products and
-        services without disrupting critical operations. I led the strategy for that evolution:
-        16 reusable core capabilities across data, banking architecture, and multichannel layers,
-        so products are built on top instead of rebuilding customer, consent, or signature
-        management each time — enabling the Retail transformation (access, consents, global
-        position, transaction history in the mobile app) and Business banking processes (mass
-        payroll payments, multi-signature approvals, business mobile app).
+        BBVA Peru needed to evolve its core banking platform to launch new digital products and
+        services without adding obsolescence cost or risk to critical operations. I led the strategy
+        for that evolution, and we implemented 11 of the new Core's 16 reusable capabilities across
+        three layers — data, banking architecture, and multichannel — so each product is built on top
+        instead of rebuilding customer, consent, or signature management every time. On that Core we
+        enabled the Retail transformation (access management, consents, global position, and
+        transaction history in the mobile app) and Business banking processes (mass payroll payments,
+        multi-signature approvals, and the business mobile app).
       </p>
       <ul>
-        <li data-i18n="lead.li1">Acted as <strong>Sponsor</strong> of the global Horizon Alpha program, driving adoption of the new Core across the country's strategic initiatives.</li>
-        <li data-i18n="lead.li2">Later served as <strong>Product Owner</strong> of Horizon Alpha 1.0, accelerating implementation of the key modules needed to support new banking products and services.</li>
-        <li data-i18n="lead.li3">Integrated the transactional architecture (APX) with asynchronous messaging platforms, coordinating with BBVA Group's global architecture teams to keep the system modular and scalable.</li>
-        <li data-i18n="lead.li4">Represented engineering on the bank's Innovation Leadership team, helping structure cross-cutting innovation programs.</li>
+        <li data-i18n="lead.li1">As <strong>Product Owner</strong> of Horizon Alpha, I accelerated the implementation of the key modules needed to support new banking products and services.</li>
+        <li data-i18n="lead.li2">Then, as <strong>Sponsor</strong> of the global Horizon Alpha program, I drove adoption of the new Core across the Group's and the country's strategic initiatives.</li>
+        <li data-i18n="lead.li3">Implemented the core banking functional architecture across the bank's technical architectures — services (ASO), backend (APX), middleware (SEMaaS), batch processing (LRABatch), and frontend (Cells Web) — in coordination with BBVA Group's global architecture teams, keeping the system modular and scalable.</li>
+        <li data-i18n="lead.li4">Mobilized 100+ people across the country and the Holding — security, development, change management, production, architecture, fraud, and the Mexico and Spain holdings — to deploy each Alpha Core release (1,500+ components) in under a quarter, with quality automation. We were the first country in the Group to achieve a successful release with zero production impact.</li>
       </ul>
       <div class="stat-row">
         <div class="stat">
@@ -239,7 +246,7 @@
             <div class="stat-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16.5 9 10l4 4 8-8.5"/><path d="M16 5.5h5v5"/></svg></div>
             <div class="num">33%</div>
           </div>
-          <div class="label" data-i18n="lead.stat2">of the country's strategic initiatives running on the new Core, powering BBVA Peru's main channels</div>
+          <div class="label" data-i18n="lead.stat2">of the country's strategic initiatives already run on the new Core, serving BBVA Peru's main channels</div>
         </div>
         <div class="stat">
           <div class="stat-top">
@@ -251,32 +258,32 @@
         <div class="stat">
           <div class="stat-top">
             <div class="stat-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="m3 13 9 5 9-5"/><path d="m3 18 9 5 9-5"/></svg></div>
-            <div class="num">16</div>
+            <div class="num">11/16</div>
           </div>
-          <div class="label" data-i18n="lead.stat4">reusable core capabilities delivered; ~7 products across Retail and Business banking built on them</div>
+          <div class="label" data-i18n="lead.stat4">of the new Core's reusable capabilities implemented; ~7 Retail and Business banking products built on them</div>
         </div>
       </div>
       <p data-i18n="lead.p2">
-        Beyond the Core Banking program, I taught architecture standards and emerging technology
-        trends as a professor at BBVA's internal Tech University for three consecutive years
-        (2018–2020), and mentored engineers through the bank's Open Mentoring program.
+        Beyond the Core Banking program, I taught architecture design and standards and emerging
+        technology trends as a professor at BBVA's internal Tech University for three consecutive
+        years (2018–2020), and mentored engineers through the bank's Open Mentoring program.
       </p>
     </div>
   </section>
 
   <section id="global">
     <div class="section-label" data-i18n="global.label">Global Assignments</div>
-    <h2 data-i18n="global.h2">Two international postings at BBVA's Madrid HQ</h2>
+    <h2 data-i18n="global.h2">Assignments at BBVA Group's Madrid HQ</h2>
     <div class="two-col-grid">
       <div class="info-card">
         <div class="info-card-meta" data-i18n="global.c1.meta">2018 · Madrid, Spain</div>
         <h4 data-i18n="global.c1.h4">Microservices &amp; gRPC architecture</h4>
-        <p data-i18n="global.c1.p">Designed the bank's new containerized microservices architecture built on gRPC, deployable on BBVA's hybrid cloud platform, working directly with the group's global architecture team.</p>
+        <p data-i18n="global.c1.p">Part of the team that designed the bank's new containerized microservices architecture, built on gRPC and deployable on BBVA's hybrid cloud platform, working on-site in Madrid with the Group's global architecture team.</p>
       </div>
       <div class="info-card">
-        <div class="info-card-meta" data-i18n="global.c2.meta">2025 · Madrid, Spain — International PDI Program</div>
-        <h4 data-i18n="global.c2.h4">Group AI Architecture team</h4>
-        <p data-i18n="global.c2.p">Joined BBVA Group's holding AI Architecture team to help design the group's agentic AI architecture, including a reference architecture and a decision framework for choosing the right technology for each use case.</p>
+        <div class="info-card-meta" data-i18n="global.c2.meta">2025 · Madrid, Spain — International Development Program (PDI)</div>
+        <h4 data-i18n="global.c2.h4">Group AI Architecture</h4>
+        <p data-i18n="global.c2.p">Joined the Holding's AI Architecture team in Madrid to help design the Group's agentic AI architecture: a reference architecture and the first decision framework — which I proposed — for choosing the right technology for each use case.</p>
       </div>
     </div>
   </section>
@@ -287,30 +294,30 @@
     <div class="two-col-grid">
       <div class="info-card">
         <div class="info-card-meta" data-i18n="speak.c1.meta">September 2026 · Lima, Peru</div>
-        <h4 data-i18n="speak.c1.h4">C-level panel — Semana Económica</h4>
-        <p data-i18n="speak.c1.p">Invited to represent BBVA on a panel for a private club of C-level executives from Peruvian companies, alongside representatives from Microsoft and Sonda. Featured in an executive magazine profile ahead of the event.</p>
+        <h4 data-i18n="speak.c1.h4">C-level panel — Building an AI ecosystem for Peru</h4>
+        <p data-i18n="speak.c1.p">Invited to represent BBVA Peru on a panel before a private club of C-level executives from Peruvian and international companies, alongside representatives from Microsoft, Sonda, and the PCM. Ahead of the event, Semana Económica published an interview and my profile as the bank's AI lead in its magazine for Peruvian banking executives.</p>
       </div>
       <div class="info-card">
         <div class="info-card-meta" data-i18n="speak.c2.meta">June 2026 · Lima, Peru</div>
-        <h4 data-i18n="speak.c2.h4">Investors Peru Event</h4>
-        <p data-i18n="speak.c2.p">Spoke on how BBVA brings its AI strategy into the conversation with institutional clients — landing strategy in concrete use cases, not just slides.</p>
+        <h4 data-i18n="speak.c2.h4">Speaker — Investors Peru Event</h4>
+        <p data-i18n="speak.c2.p">Presented how BBVA executes its AI strategy on its way to becoming the bank of the future, and shared with institutional clients experiences and best practices grounded in concrete use cases they can adopt in their own organizations.</p>
       </div>
     </div>
   </section>
 
   <section id="timeline">
     <div class="section-label" data-i18n="tl.label">Career Path</div>
-    <h2 data-i18n="tl.h2">From developer to AI &amp; Enterprise Architecture lead</h2>
+    <h2 data-i18n="tl.h2">The path to leading Enterprise &amp; AI Architecture</h2>
     <div class="timeline">
       <div class="tl-item">
         <div class="tl-date" data-i18n="tl1.date">2024 — Present</div>
         <h4 data-i18n="tl1.h4">AI &amp; Enterprise Architecture Lead — BBVA Peru</h4>
-        <p data-i18n="tl1.p">Defining the bank's AI &amp; Cloud architecture strategy at the intersection of business, technology, and innovation; presented a mixed large/small-model architecture strategy (cost and latency driven) to the CIO. In 2025, joined an international assignment (PDI Program) with BBVA Group's holding AI Architecture team in Madrid — part of the team that co-defined v1 of the Group-wide AI Decision Framework (no-code / low-code / build per use case), presented to the Group's top leadership. Defined the local AI pilot governance model with Strategy &amp; Control involved from day one, and translated Peru's new AI regulation into design rules: customer-facing agents disclose they are AI, and generated content is labeled.</p>
+        <p data-i18n="tl1.p">Defining the bank's AI &amp; Cloud architecture strategy, integrating the business, technology, and innovation view; presented a mixed large/small-model architecture strategy to the CIO, designed around cost, latency, and data sovereignty. In 2025, joined an international assignment (PDI Program) with the Holding's AI Architecture team in Madrid, as part of the team that defined v1 of the Group-wide AI Decision Framework (no-code, low-code, or build per use case), presented to top leadership. Defined the local AI pilot governance model with Strategy &amp; Control involved from day one, and was the architect responsible for the country's first agentic AI use case, evolving servicing in the contact center. Also contributed to the country's responsible AI policies, aligned with local regulation: customer-facing agents disclose they are AI, and generated content is labeled.</p>
       </div>
       <div class="tl-item">
         <div class="tl-date">2019 — 2024</div>
         <h4 data-i18n="tl2.h4">Lead Core Banking &amp; Cloud Architect — BBVA Peru</h4>
-        <p data-i18n="tl2.p">Sponsor, then Product Owner, of the Horizon Alpha Core Banking transformation. Led up to ~50 people (20 internal, 30 external across four consulting firms) spanning Core, APX, and Host architecture, managing capacity budget on an FTE-cost basis. Drove the legacy-to-NextGen transaction migration from 5% (2018) to 71% (2026): transaction volume grew 5x while cost grew 2x (2020–2024). Represented engineering on the Innovation Leadership team.</p>
+        <p data-i18n="tl2.p">Product Owner, then Sponsor, of the global Core Banking transformation (Alpha). Led up to ~50 people (20 internal, 30 external across four consulting firms) and mobilized 100+ more across country and Holding teams, managing capacity budget on an FTE-cost basis. Initiated and drove the legacy-to-NextGen transaction migration from 5% (2018) to 71% (2026): transaction volume grew 5x while cost grew 2x (2020–2024). Engineering's representative on the bank's Innovation Leadership team.</p>
       </div>
       <div class="tl-item">
         <div class="tl-date">2018 — 2019</div>
@@ -320,22 +327,22 @@
       <div class="tl-item">
         <div class="tl-date">2017 — 2018</div>
         <h4 data-i18n="tl4.h4">APX &amp; Private Cloud Architect — BBVA Peru</h4>
-        <p data-i18n="tl4.p">Directed the evolution of the transactional architecture (APX) and the bank's private cloud (Ether). In 2018, an international assignment to BBVA's Madrid HQ to design a containerized, gRPC-based microservices architecture for the group's hybrid cloud platform.</p>
+        <p data-i18n="tl4.p">Architect responsible for defining the strategy and implementing the Group's transactional architecture (APX) and private cloud (Ether) in Peru. In 2018, an international assignment to BBVA's Madrid HQ to design a containerized, gRPC-based microservices architecture for the Group's hybrid cloud platform.</p>
       </div>
       <div class="tl-item">
         <div class="tl-date">2016 — 2017</div>
         <h4 data-i18n="tl5.h4">Platform as a Service (PaaS) Architect — BBVA Peru</h4>
-        <p data-i18n="tl5.p">Led the evolution of the bank's services/API platform (ASO) and defined standards for microservices and event-driven architecture adoption.</p>
+        <p data-i18n="tl5.p">Led the evolution of the bank's services/API platform (ASO) and was the architect responsible for the Mainframe architecture in Peru, defining adoption and integration standards oriented to microservices and event-driven architecture.</p>
       </div>
       <div class="tl-item">
         <div class="tl-date">2015 — 2016</div>
         <h4 data-i18n="tl6.h4">IT Architect / SOA Analyst — Equifax</h4>
-        <p data-i18n="tl6.p">Designed architectures for critical projects (Self-Service, Smart SVI, Datamart Financiero) and large-scale data processing pipelines (OSTRA).</p>
+        <p data-i18n="tl6.p">Solutions architect responsible for designing the company's critical and strategic projects (Self-Service, Smart SVI, Datamart Financiero) and large-scale data processing pipelines (OSTRA).</p>
       </div>
       <div class="tl-item">
         <div class="tl-date">2010 — 2015</div>
-        <h4 data-i18n="tl7.h4">Software Developer — CSTI, Softmarkperu, Universidad JFSC</h4>
-        <p data-i18n="tl7.p">Built systems in Java/Spring and .NET for healthcare, telecom, and public-sector clients — the hands-on foundation my architecture decisions still draw on.</p>
+        <h4 data-i18n="tl7.h4">Software Technical Lead — CSTI, Softmarkperu, Universidad JFSC</h4>
+        <p data-i18n="tl7.p">Led multidisciplinary development teams building systems in Java/Spring, PHP, and .NET for healthcare, telecom, and public-sector clients — the hands-on foundation my architecture decisions still draw on.</p>
       </div>
     </div>
   </section>
@@ -409,7 +416,7 @@
     <p class="lead-p" data-i18n="contact.p">Open to conversations about AI architecture leadership, advisory work, or speaking on agentic AI in regulated industries.</p>
     <div class="contact-links">
       <a class="btn" href="https://www.linkedin.com/in/victor-espiritu-santiago-89873782/" target="_blank" rel="noopener">LinkedIn</a>
-      <a class="btn" href="https://github.com/Root1V" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="mailto:espiritusantiagovictor@gmail.com">Email</a>
       <a class="btn" href="https://x.com/VEspirituS" target="_blank" rel="noopener">X / Twitter</a>
     </div>
   </section>
@@ -439,7 +446,7 @@
 
   document.getElementById("year").textContent = new Date().getFullYear();
 </script>
-<script src="assets/js/i18n.js?v=2"></script>
+<script src="assets/js/i18n.js?v=3"></script>
 
 </body>
 </html>

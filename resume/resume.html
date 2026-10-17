@@ -275,7 +275,7 @@
       <div class="job-date">2019 — 2024</div>
     </div>
     <ul>
-      <li>Sponsor, then Product Owner, of the Horizon Alpha Core Banking transformation (case study below); led up to ~50 people (20 internal, 30 external across four consulting firms) spanning Core, APX, and Host architecture, managing capacity budget on an FTE-cost basis.</li>
+      <li>Product Owner, then Sponsor, of the Horizon Alpha Core Banking transformation (case study below); led up to ~50 people (20 internal, 30 external across four consulting firms) spanning Core, APX, and Host architecture and mobilized 100+ more across country and Holding teams, managing capacity budget on an FTE-cost basis.</li>
       <li>Drove the legacy-to-NextGen transaction migration from 5% (2018) to 71% (2026): transaction volume grew 5x while cost grew 2x (2020–2024).</li>
       <li>Represented engineering on the bank's Innovation Leadership team.</li>
     </ul>
@@ -323,11 +323,11 @@
 
   <div class="job">
     <div class="job-head">
-      <div><span class="job-title">Software Developer</span> — <span class="job-org">CSTI, Softmarkperu, Universidad JFSC</span></div>
+      <div><span class="job-title">Software Technical Lead</span> — <span class="job-org">CSTI, Softmarkperu, Universidad JFSC</span></div>
       <div class="job-date">2010 — 2015</div>
     </div>
     <ul>
-      <li>Built systems in Java/Spring and .NET for healthcare, telecom, and public-sector clients — the hands-on foundation later architecture decisions drew on.</li>
+      <li>Led multidisciplinary development teams building systems in Java/Spring, PHP, and .NET for healthcare, telecom, and public-sector clients — the hands-on foundation later architecture decisions drew on.</li>
     </ul>
   </div>
 </div>
@@ -335,15 +335,16 @@
 <div class="section-label">Leadership Case Study — Horizon Alpha</div>
 <div class="panel case">
   <div class="case-meta">
-    <span><strong>Role:</strong> Sponsor → Product Owner</span>
+    <span><strong>Role:</strong> Product Owner → Sponsor</span>
     <span><strong>Program:</strong> Horizon Alpha (Holding-funded, &gt;€1M over 3 years)</span>
     <span><strong>Where:</strong> BBVA Peru</span>
     <span><strong>When:</strong> 2019–2024</span>
   </div>
-  <p>BBVA Peru needed to evolve its core banking platform to enable new digital products without disrupting critical operations. I led the strategy for that evolution: 16 reusable core capabilities across data, banking architecture, and multichannel layers, so products are built on top instead of rebuilding customer, consent, or signature management each time.</p>
+  <p>BBVA Peru needed to evolve its core banking platform to enable new digital products without disrupting critical operations. I led the strategy for that evolution: 11 of the new Core's 16 reusable capabilities implemented across data, banking architecture, and multichannel layers, so products are built on top instead of rebuilding customer, consent, or signature management each time.</p>
   <ul>
     <li>Enabled the Retail transformation (access, consents, global position, transaction history in the mobile app) and Business banking processes (mass payroll payments, multi-signature approvals, business mobile app).</li>
-    <li>Integrated the transactional architecture (APX) with asynchronous messaging platforms, coordinating with BBVA Group's global architecture teams to keep the system modular and scalable.</li>
+    <li>Implemented the core functional architecture across the bank's technical stacks — services (ASO), backend (APX), middleware (SEMaaS), batch (LRABatch), frontend (Cells Web) — with BBVA Group's global architecture teams, keeping the system modular and scalable.</li>
+    <li>Mobilized 100+ people across the country and the Holding to deploy each Alpha Core release (1,500+ components) in under a quarter with quality automation — the first country in the Group with a zero-impact release.</li>
   </ul>
   <div class="stat-row">
     <div class="stat">
@@ -370,9 +371,9 @@
     <div class="stat">
       <div class="stat-top">
         <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="m3 13 9 5 9-5"/><path d="m3 18 9 5 9-5"/></svg></div>
-        <div class="num">16</div>
+        <div class="num">11/16</div>
       </div>
-      <div class="label">reusable core capabilities; ~7 products across Retail and Business</div>
+      <div class="label">reusable core capabilities implemented; ~7 products across Retail and Business</div>
     </div>
   </div>
 </div>
@@ -410,10 +411,6 @@
 <div class="two-col">
   <div>
     <div class="proj">
-      <div class="proj-name"><span class="proj-dot" style="background:var(--c-argus)"></span>argus-observability-platform</div>
-      <div class="proj-desc">OTel-native observability &amp; AIOps for AI systems — GenAI cost/token attribution, sub-2s anomaly detection. Live pilot, 68k+ spans, 229 tests.</div>
-    </div>
-    <div class="proj">
       <div class="proj-name"><span class="proj-dot" style="background:var(--c-prometheus)"></span>prometheus-inference-platform</div>
       <div class="proj-desc">Self-hosted LLM inference gateway (llama.cpp, MLX, vLLM, SGLang) with JWT auth, per-model authorization, OpenTelemetry tracing.</div>
     </div>
@@ -421,15 +418,23 @@
       <div class="proj-name"><span class="proj-dot" style="background:var(--c-aerarium)"></span>aerarium-agentic-banking</div>
       <div class="proj-desc">Rust double-entry ledger for agentic commerce — AI agents as first-class account holders, hold-to-capture authorizations.</div>
     </div>
-  </div>
-  <div>
     <div class="proj">
       <div class="proj-name"><span class="proj-dot" style="background:var(--c-mercatus)"></span>mercatus-agentic-payments</div>
       <div class="proj-desc">Framework for autonomous agentic commerce with swappable x402 (USDC) and AP2 (mandate-based) settlement adapters.</div>
     </div>
+  </div>
+  <div>
+    <div class="proj">
+      <div class="proj-name"><span class="proj-dot" style="background:#14b8a6"></span>veritium-document-intelligence</div>
+      <div class="proj-desc">Agentic document intelligence: hexagonal architecture, bounded ReAct extraction, CEL-rule validation engine, deterministic grounding, pluggable OCR, OpenTelemetry tracing.</div>
+    </div>
     <div class="proj">
       <div class="proj-name"><span class="proj-dot" style="background:var(--c-synaptum)"></span>synaptum-framework</div>
       <div class="proj-desc">Durable Python agent runtime — checkpoint/resume, deterministic step identity, zero required dependencies.</div>
+    </div>
+    <div class="proj">
+      <div class="proj-name"><span class="proj-dot" style="background:#f97316"></span>aeon-agent-harness</div>
+      <div class="proj-desc">Self-hosted agent harness: durable Temporal execution, typed evidence, policy outside the model, governed memory; interop with LangGraph, CrewAI, OpenAI/Claude Agent SDKs.</div>
     </div>
   </div>
 </div>
