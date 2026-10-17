@@ -78,7 +78,7 @@ Core bancario para comercio agéntico: un ledger real de partida doble, append-o
 Framework de comercio agéntico: agentes de IA que descubren, pagan y monetizan servicios de forma autónoma, con adaptadores de liquidación intercambiables para x402 (USDC) y AP2 (basado en mandatos).
 
 ### proj.synaptum
-Mi propio runtime durable de agentes para Python: ejecución basada en generadores con checkpoint/resume e identidad determinista de cada paso, sin dependencias obligatorias. La orquestación multiagente está en el roadmap; todavía no está construida.
+Mi propio runtime y framework de agentes para Python: ejecución basada en generadores con checkpoint/resume e identidad determinista de cada paso, sin dependencias obligatorias. La orquestación multiagente está en el roadmap; todavía no está construida.
 
 ### proj.link
 Ver en GitHub →
