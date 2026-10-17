@@ -27,7 +27,13 @@ Certificaciones
 Contacto
 
 ### nav.resume
-CV
+Descargar CV
+
+### nav.cv.en
+Inglés
+
+### nav.cv.es
+Español
 
 
 ## Hero (cabecera)

@@ -8,7 +8,9 @@
       "nav.timeline": "Trayectoria",
       "nav.certs": "Certificaciones",
       "nav.contact": "Contacto",
-      "nav.resume": "CV",
+      "nav.resume": "Descargar CV",
+      "nav.cv.en": "Inglés",
+      "nav.cv.es": "Español",
 
       "hero.eyebrow": "Arquitecto Empresarial y de IA · BBVA Perú",
       "hero.lede": "Diseño arquitecturas de IA agéntica y cloud-native, conectando la estrategia de negocio, la tecnología emergente de IA y la ejecución en la empresa. Más de 15 años en tecnología: de desarrollador de software a liderar la IA empresarial, sin perder el contacto con la tecnología ni la visión del negocio.",
