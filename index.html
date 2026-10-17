@@ -77,11 +77,11 @@
   <div class="nav-inner">
     <div class="brand">Victor Espiritu</div>
     <nav class="nav-links">
-      <a href="#projects" data-i18n="nav.projects">Projects</a>
       <a href="#leadership" data-i18n="nav.leadership">Leadership</a>
       <a href="#global" data-i18n="nav.global">Global</a>
       <a href="#speaking" data-i18n="nav.speaking">Speaking</a>
       <a href="#timeline" data-i18n="nav.timeline">Timeline</a>
+      <a href="#projects" data-i18n="nav.projects">Projects</a>
       <a href="#certifications" data-i18n="nav.certs">Certifications</a>
       <a href="#contact" data-i18n="nav.contact">Contact</a>
     </nav>
@@ -143,68 +143,6 @@
       are a snapshot of that work, all open source and lock-in free. I also built an LLM from
       scratch as personal study, so I understand the models from the inside, not just through an API.
     </p>
-  </section>
-
-  <section id="projects">
-    <div class="section-label" data-i18n="projects.label">Selected Work</div>
-    <h2 data-i18n="projects.h2">Six projects from my public lab</h2>
-    <div class="projects-grid">
-      <div class="project-card" style="--card-accent: var(--c-prometheus)">
-        <img src="assets/img/proj-prometheus.png" loading="lazy" alt="prometheus-inference-platform" />
-        <div class="project-body">
-          <h3>prometheus-inference-platform</h3>
-          <p data-i18n="proj.prometheus">Self-hosted LLM inference gateway routing across llama.cpp, MLX, vLLM and SGLang, with JWT auth, per-model authorization and full OpenTelemetry tracing.</p>
-          <a class="project-link" href="https://github.com/Root1V/prometheus-inference-platform" target="_blank" rel="noopener" data-i18n="proj.link">View on GitHub →</a>
-        </div>
-      </div>
-
-      <div class="project-card" style="--card-accent: var(--c-mercatus)">
-        <img src="assets/img/proj-mercatus.png" loading="lazy" alt="mercatus-agentic-payments" />
-        <div class="project-body">
-          <h3>mercatus-agentic-payments</h3>
-          <p data-i18n="proj.mercatus">Framework for agentic commerce — AI agents that discover, pay for, and monetize services autonomously, with swappable x402 (USDC) and AP2 (mandate-based) settlement adapters.</p>
-          <a class="project-link" href="https://github.com/Root1V/mercatus-agentic-payments" target="_blank" rel="noopener" data-i18n="proj.link">View on GitHub →</a>
-        </div>
-      </div>
-
-      <div class="project-card" style="--card-accent: var(--c-veritium)">
-        <img src="assets/img/proj-veritium.png" loading="lazy" alt="veritium-document-intelligence" />
-        <div class="project-body">
-          <h3>veritium-document-intelligence</h3>
-          <p data-i18n="proj.veritium">Production-grade agentic document intelligence platform: hexagonal architecture, bounded ReAct extraction loop, 6-category validation engine with configurable CEL rules, deterministic grounding and full OpenTelemetry tracing. Pluggable OCR (Docling / PaddleOCR); LLM/VLM via any OpenAI-compatible endpoint — no vendor lock-in.</p>
-          <a class="project-link" href="https://github.com/Root1V/veritium-document-intelligence" target="_blank" rel="noopener" data-i18n="proj.link">View on GitHub →</a>
-        </div>
-      </div>
-
-      <div class="project-card" style="--card-accent: var(--c-aerarium)">
-        <img src="assets/img/proj-aerarium.png" loading="lazy" alt="aerarium-agentic-banking" />
-        <div class="project-body">
-          <h3>aerarium-agentic-banking</h3>
-          <p data-i18n="proj.aerarium">Banking core for agentic commerce — a real append-only double-entry ledger in Rust where AI agents are first-class account holders: hold-to-capture authorizations, consent-backed payment mandates.</p>
-          <a class="project-link" href="https://github.com/Root1V/aerarium-agentic-banking" target="_blank" rel="noopener" data-i18n="proj.link">View on GitHub →</a>
-        </div>
-      </div>
-
-      <div class="project-card" style="--card-accent: var(--c-synaptum)">
-        <img src="assets/img/proj-synaptum.png" loading="lazy" alt="synaptum-framework" />
-        <div class="project-body">
-          <h3>synaptum-framework</h3>
-          <p data-i18n="proj.synaptum">My own agent runtime and framework for Python — generator-based execution with checkpoint/resume and deterministic step identity, zero required dependencies. Multi-agent orchestration is on the roadmap, not built yet.</p>
-          <a class="project-link" href="https://github.com/Root1V/synaptum-framework" target="_blank" rel="noopener" data-i18n="proj.link">View on GitHub →</a>
-        </div>
-      </div>
-
-      <div class="project-card" style="--card-accent: var(--c-aeon)">
-        <img src="assets/img/proj-aeon.png" loading="lazy" alt="aeon-agent-harness" />
-        <div class="project-body">
-          <h3>aeon-agent-harness</h3>
-          <p data-i18n="proj.aeon">Self-hosted agent harness platform: durable Temporal execution, typed context and evidence, policy enforcement outside the model, governed memory, and native interop with LangGraph, CrewAI, OpenAI Agents SDK, Microsoft Agent Framework, and Claude Agent SDK.</p>
-          <a class="project-link" href="https://github.com/Root1V/aeon-agent-harness" target="_blank" rel="noopener" data-i18n="proj.link">View on GitHub →</a>
-        </div>
-      </div>
-
-
-    </div>
   </section>
 
   <section id="leadership">
@@ -344,6 +282,68 @@
         <h4 data-i18n="tl7.h4">Software Technical Lead — CSTI, Softmarkperu, Universidad JFSC</h4>
         <p data-i18n="tl7.p">Led multidisciplinary development teams building systems in Java/Spring, PHP, and .NET for healthcare, telecom, and public-sector clients — the hands-on foundation my architecture decisions still draw on.</p>
       </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-label" data-i18n="projects.label">Selected Work</div>
+    <h2 data-i18n="projects.h2">Six projects from my public lab</h2>
+    <div class="projects-grid">
+      <div class="project-card" style="--card-accent: var(--c-prometheus)">
+        <img src="assets/img/proj-prometheus.png" loading="lazy" alt="prometheus-inference-platform" />
+        <div class="project-body">
+          <h3>prometheus-inference-platform</h3>
+          <p data-i18n="proj.prometheus">Self-hosted LLM inference gateway routing across llama.cpp, MLX, vLLM and SGLang, with JWT auth, per-model authorization and full OpenTelemetry tracing.</p>
+          <a class="project-link" href="https://github.com/Root1V/prometheus-inference-platform" target="_blank" rel="noopener" data-i18n="proj.link">View on GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card" style="--card-accent: var(--c-mercatus)">
+        <img src="assets/img/proj-mercatus.png" loading="lazy" alt="mercatus-agentic-payments" />
+        <div class="project-body">
+          <h3>mercatus-agentic-payments</h3>
+          <p data-i18n="proj.mercatus">Framework for agentic commerce — AI agents that discover, pay for, and monetize services autonomously, with swappable x402 (USDC) and AP2 (mandate-based) settlement adapters.</p>
+          <a class="project-link" href="https://github.com/Root1V/mercatus-agentic-payments" target="_blank" rel="noopener" data-i18n="proj.link">View on GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card" style="--card-accent: var(--c-veritium)">
+        <img src="assets/img/proj-veritium.png" loading="lazy" alt="veritium-document-intelligence" />
+        <div class="project-body">
+          <h3>veritium-document-intelligence</h3>
+          <p data-i18n="proj.veritium">Production-grade agentic document intelligence platform: hexagonal architecture, bounded ReAct extraction loop, 6-category validation engine with configurable CEL rules, deterministic grounding and full OpenTelemetry tracing. Pluggable OCR (Docling / PaddleOCR); LLM/VLM via any OpenAI-compatible endpoint — no vendor lock-in.</p>
+          <a class="project-link" href="https://github.com/Root1V/veritium-document-intelligence" target="_blank" rel="noopener" data-i18n="proj.link">View on GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card" style="--card-accent: var(--c-aerarium)">
+        <img src="assets/img/proj-aerarium.png" loading="lazy" alt="aerarium-agentic-banking" />
+        <div class="project-body">
+          <h3>aerarium-agentic-banking</h3>
+          <p data-i18n="proj.aerarium">Banking core for agentic commerce — a real append-only double-entry ledger in Rust where AI agents are first-class account holders: hold-to-capture authorizations, consent-backed payment mandates.</p>
+          <a class="project-link" href="https://github.com/Root1V/aerarium-agentic-banking" target="_blank" rel="noopener" data-i18n="proj.link">View on GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card" style="--card-accent: var(--c-synaptum)">
+        <img src="assets/img/proj-synaptum.png" loading="lazy" alt="synaptum-framework" />
+        <div class="project-body">
+          <h3>synaptum-framework</h3>
+          <p data-i18n="proj.synaptum">My own agent runtime and framework for Python — generator-based execution with checkpoint/resume and deterministic step identity, zero required dependencies. Multi-agent orchestration is on the roadmap, not built yet.</p>
+          <a class="project-link" href="https://github.com/Root1V/synaptum-framework" target="_blank" rel="noopener" data-i18n="proj.link">View on GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card" style="--card-accent: var(--c-aeon)">
+        <img src="assets/img/proj-aeon.png" loading="lazy" alt="aeon-agent-harness" />
+        <div class="project-body">
+          <h3>aeon-agent-harness</h3>
+          <p data-i18n="proj.aeon">Self-hosted agent harness platform: durable Temporal execution, typed context and evidence, policy enforcement outside the model, governed memory, and native interop with LangGraph, CrewAI, OpenAI Agents SDK, Microsoft Agent Framework, and Claude Agent SDK.</p>
+          <a class="project-link" href="https://github.com/Root1V/aeon-agent-harness" target="_blank" rel="noopener" data-i18n="proj.link">View on GitHub →</a>
+        </div>
+      </div>
+
+
     </div>
   </section>
 
