@@ -72,7 +72,7 @@
       "tl2.h4": "Arquitecto Líder de Core Bancario y Cloud — BBVA Perú",
       "tl2.p": "Product Owner y luego Sponsor de la transformación del core bancario global (Alpha). Llegué a liderar ~50 personas (20 internas y 30 externas de cuatro consultoras) y a movilizar a más de 100 de distintas áreas del país y del Holding, gestionando el presupuesto de capacidad por costo de FTE. Inicié e impulsé la migración transaccional de legacy a plataformas NextGen del 5% (2018) al 71% (2026): el volumen transaccional creció 5x mientras el costo solo 2x (2020–2024). Fui el referente de Ingeniería en el equipo de Innovation Leadership del banco.",
       "tl3.h4": "Manager de Arquitectura Backend — BBVA Perú",
-      "tl3.p": "Ascendí a gestionar las arquitecturas backend globales del banco (ASO, APX, Mainframe) y su plataforma de Cloud privada (Ether). Fui profesor de estándares de arquitectura en la Tech University de BBVA (2018–2020).",
+      "tl3.p": "Fui el arquitecto responsable de definir la estrategia de evolución de las arquitecturas backend del banco —ASO, APX y Mainframe— y de su plataforma de Cloud privada (Ether) en el país. Fui profesor de estándares de arquitectura en la Tech University de BBVA (2018–2020).",
       "tl4.h4": "Arquitecto de APX y Cloud Privada — BBVA Perú",
       "tl4.p": "Arquitecto responsable de definir la estrategia e implementar en el país la arquitectura transaccional (APX) y la Cloud privada (Ether) del Grupo. En 2018 tuve una asignación internacional en la sede de BBVA en Madrid para diseñar una arquitectura de microservicios en contenedores sobre gRPC para la plataforma de Cloud híbrida del Grupo.",
       "tl5.h4": "Arquitecto PaaS (Platform as a Service) — BBVA Perú",
