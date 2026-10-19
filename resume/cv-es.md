@@ -52,7 +52,7 @@ Líder de Arquitectura Empresarial, IA y Cloud con más de 15 años de trayector
 
 - Diseñé las arquitecturas de proyectos críticos (Autoservicio, Smart SVI, Datamart Financiero) y de pipelines de procesamiento de grandes volúmenes de datos (OSTRA).
 
-### Líder Técnico de Software — CSTI, Softmarkperu, Universidad JFSC | 2010 — 2015
+### Líder Técnico de Software — CSTI, Softmarkperu, Universidad JFSC | 2010 — 2014
 
 - Lideré equipos de desarrollo multidisciplinarios para construir sistemas en Java/Spring, Python y .NET para clientes de salud, telecomunicaciones y sector público: la base práctica en la que todavía se apoyan mis decisiones de arquitectura.
 
