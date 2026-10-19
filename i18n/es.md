@@ -21,7 +21,7 @@ Charlas
 Trayectoria
 
 ### nav.certs
-Certificaciones
+Formación
 
 ### nav.contact
 Contacto
@@ -216,13 +216,13 @@ El camino del líder de Arquitectura Empresarial e IA
 Líder de Arquitectura Empresarial y de IA — BBVA Perú
 
 ### tl1.p
-Defino la estrategia de arquitectura de IA y Cloud del banco, combinando la vision entre negocio, tecnología e innovación; presenté al CIO una estrategia de arquitectura mixta de modelos grandes y pequeños, pensada en costo, latencia y soberania de datos. En 2025 tuve una asignación internacional (Programa PDI) con el equipo de Arquitectura de IA del Holding en Madrid, como parte del equipo que definió la primera versión del Decision Framework de IA para todo el Grupo (no-code, low-code o build según el caso de uso), presentado a la alta dirección. Definí el modelo de gobierno de pilotos de IA en el país en conjunto con el área de Strategy & Control, y participe como Arquitecto responsable del primer caso de uso de IA Agentcia en el pais para evolucionar la atencion del Servicing en el Contact Center. Ademas participe en la definicion de politicas de IA Responsable en el pais alineado a la regulacion local de inteligencia Artificial: los agentes de cara al cliente se identifican como IA y el contenido generado se etiqueta.
+Defino la estrategia de arquitectura de IA y Cloud del banco, integrando la visión de negocio, tecnología e innovación; presenté al CIO una estrategia de arquitectura mixta de modelos grandes y pequeños, pensada en costo, latencia y soberanía de datos. En 2025 tuve una asignación internacional (Programa PDI) con el equipo de Arquitectura de IA del Holding en Madrid, como parte del equipo que definió la primera versión del Decision Framework de IA para todo el Grupo (no-code, low-code o build según el caso de uso), presentado a la alta dirección. Definí el modelo de gobierno de pilotos de IA en el país en conjunto con el área de Strategy & Control, y fui el arquitecto responsable del primer caso de uso de IA agéntica del país, hoy en producción, que evoluciona la atención de servicing en el contact center; también lideré la plataforma de inferencia self-hosted de LLMs en el CPD del banco para los pilotos de AI for ITOps y AI for processes. Además participé en la definición de las políticas de IA responsable del país, alineadas a la regulación local: los agentes de cara al cliente se identifican como IA y el contenido generado se etiqueta.
 
 ### tl2.h4
 Arquitecto Líder de Core Bancario y Cloud — BBVA Perú
 
 ### tl2.p
-Sponsor y Product Owner de la transformación del core bancario global (Alpha). Llegué a liderar ~50 personas (20 internas y 30 externas de cuatro consultoras) y a mobilizar a mas 100 personas de diversas areas del pais y holding (arquitecturas de Core, APX y Host, etc) gestionando el presupuesto de capacidad por costo de FTE. Inicie e Impulsé la migración transaccional de legacy a plataformas NextGen del 5% (2018) al 71% (2026): el volumen transaccional creció 5x mientras el costo solo 2x (2020–2024). Fui Referente del Area de Ingeniería en el equipo de Innovation Leadership del Banco.
+Product Owner y luego Sponsor de la transformación del core bancario global (Alpha), gestionada con Scrum. Llegué a liderar ~50 personas (20 internas y 30 externas de cuatro consultoras) y a movilizar a más de 100 de distintas áreas del país y del Holding, gestionando el presupuesto de capacidad por costo de FTE. Inicié la migración transaccional de legacy a plataformas NextGen desde 0% (2018) y la entregué en 42% (2022); hoy alcanza el 71% (2026). El volumen transaccional creció 5x mientras el costo solo 2x (2020–2024). Fui el referente de Ingeniería en el equipo de Innovation Leadership del banco.
 
 ### tl3.h4
 Manager de Arquitectura Backend — BBVA Perú
@@ -258,10 +258,10 @@ Lidere equipos de Desarrollo mutidisciplinarios para construir sistemas en tecno
 ## Certificaciones
 
 ### cert.label
-Certificaciones
+Formación
 
 ### cert.h2
-Formación y certificaciones
+Aprendizaje continuo
 
 ### cert.cs50
 CS50: Inteligencia Artificial con Python

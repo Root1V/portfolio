@@ -63,8 +63,10 @@
     color: var(--accent);
     letter-spacing: 0.07em;
     text-transform: uppercase;
-    margin: 0 0 5px;
+    margin: 0 0 3px;
   }
+  .tagline { font-size: 9.6px; font-weight: 500; color: var(--text-2); margin: -2px 0 6px; }
+  .job li strong { color: var(--text-0); font-weight: 600; }
   .contact { font-family: var(--mono); font-size: 8.5px; color: var(--text-dim); }
   .contact a { color: var(--accent); text-decoration: none; font-weight: 500; }
   .contact span.sep { color: var(--border); margin: 0 8px; }
@@ -198,7 +200,8 @@
   <div class="photo"><img src="../assets/img/headshot-resume.png" /></div>
   <div>
     <h1>Victor Espiritu Santiago</h1>
-    <div class="eyebrow">Arquitecto Empresarial y de IA · BBVA Perú</div>
+    <div class="eyebrow">Líder de Arquitectura Empresarial y de IA · BBVA Perú</div>
+    <div class="tagline">Estrategia de IA empresarial · IA agéntica · Transformación bancaria</div>
     <div class="contact">
       <div class="contact-row">
         <span class="citem">Lima, Perú</span>
@@ -215,13 +218,16 @@
 
 <div class="section-label">Resumen</div>
 <p class="summary">
-  Líder de Arquitectura Empresarial y de IA en BBVA Perú, donde se cruzan la estrategia de negocio, la arquitectura
-  tecnológica y la innovación: defino cómo un banco regulado adopta IA agéntica, plataformas de GenAI y arquitecturas
-  cloud-native sin comprometer la seguridad ni el cumplimiento normativo. Más de 15 años de desarrollador de software a
-  liderar la IA empresarial: equipos de hasta 50 personas en tres dominios de arquitectura, un programa de core bancario
-  financiado por el Holding durante tres años y la co-definición del Decision Framework de IA del Grupo en Madrid.
-  Mantengo un laboratorio self-hosted de infraestructura y Arquitectura de IA de nivel empresarial, todo open source,
-  y construí un LLM desde cero como estudio personal.
+  Líder de Arquitectura Empresarial, IA y Cloud con más de 15 años de trayectoria tecnológica, desde la ingeniería de
+  software hasta el liderazgo de arquitectura en banca: defino cómo un banco regulado adopta IA agéntica, plataformas
+  de GenAI y arquitecturas cloud-native, y las llevo a producción sin comprometer la seguridad ni el cumplimiento
+  normativo. En BBVA Perú lidero la estrategia de arquitectura de IA y Cloud conectando la estrategia de IA del Grupo
+  con la ejecución local: parte del equipo del Holding que definió el Decision Framework de IA y la arquitectura de
+  referencia agéntica del Grupo en Madrid, y arquitecto responsable del primer caso de uso de IA agéntica del país en
+  producción. He liderado equipos de hasta 50 personas en tres dominios de arquitectura, movilizado a más de 100 y
+  dirigido durante tres años un programa de core bancario financiado por el Holding (3x más rápido el time-to-market).
+  Con criterio técnico propio: mantengo un laboratorio self-hosted de infraestructura de IA open source de nivel
+  empresarial y construí un LLM transformer desde cero, así que entiendo los modelos por dentro y no solo vía API.
 </p>
 
 <div class="section-label">Competencias clave</div>
@@ -241,7 +247,7 @@
   <div class="skills-row">
     <div class="skills-cat">Gobierno</div>
     <div class="pills">
-      <span class="pill">Gobierno y Regulación de IA</span><span class="pill">Seguridad de IA</span><span class="pill">Build vs. Buy</span><span class="pill">FinOps para IA</span><span class="pill">Gobierno de Pilotos</span>
+      <span class="pill">Gobierno y Regulación de IA</span><span class="pill">Revisión de Seguridad de IA</span><span class="pill">Build vs. Buy</span><span class="pill">FinOps para IA</span><span class="pill">Gobierno de Pilotos</span>
     </div>
   </div>
   <div class="skills-row">
@@ -253,7 +259,7 @@
   <div class="skills-row">
     <div class="skills-cat">Liderazgo</div>
     <div class="pills">
-      <span class="pill">Estrategia Tecnológica</span><span class="pill">Presupuesto y Capacidad</span><span class="pill">Coordinación Internacional</span><span class="pill">Mentoría Técnica</span><span class="pill">Speaker</span>
+      <span class="pill">Estrategia Tecnológica</span><span class="pill">Scrum / Product Ownership</span><span class="pill">Presupuesto y Capacidad</span><span class="pill">Coordinación Internacional</span><span class="pill">Mentoría Técnica</span><span class="pill">Speaker</span>
     </div>
   </div>
 </div>
@@ -266,9 +272,11 @@
       <div class="job-date">2024 — Actualidad</div>
     </div>
     <ul>
-      <li>Defino la estrategia de arquitectura de IA y Cloud del banco; presenté al CIO una estrategia de arquitectura mixta de modelos grandes y pequeños, pensada en costo y latencia.</li>
-      <li>2025: asignación internacional (Programa PDI) con el equipo de Arquitectura de IA del Holding en Madrid, como parte del equipo que definió la v1 del Decision Framework de IA para todo el Grupo (no-code / low-code / build según el caso de uso), presentado a la alta dirección, y una arquitectura de referencia agéntica por capas y multi-vendor.</li>
-      <li>Definí el modelo de gobierno de pilotos de IA en el país en conjunto con el área de Strategy &amp; Control; traduje la nueva regulación peruana de IA en reglas de diseño (los agentes de cara al cliente se identifican como IA y el contenido generado se etiqueta).</li>
+      <li><strong>Estrategia:</strong> defino la estrategia de arquitectura de IA y Cloud del banco, traduciendo la estrategia de IA del Grupo en capacidades, estándares y prioridades locales; presenté al CIO una arquitectura mixta de modelos grandes y pequeños, pensada en costo, latencia y soberanía de datos.</li>
+      <li><strong>Arquitectura del Grupo:</strong> asignación internacional 2025 (Programa PDI) con el equipo de Arquitectura de IA del Holding en Madrid, como parte del equipo que definió la v1 del Decision Framework de IA para todo el Grupo (no-code / low-code / build según el caso de uso), presentado a la alta dirección, y una arquitectura de referencia agéntica por capas y multi-vendor.</li>
+      <li><strong>Industrialización:</strong> arquitecto responsable del primer caso de uso de IA agéntica del país, hoy en producción, que evoluciona la atención de servicing en el contact center; lideré la plataforma de inferencia self-hosted de LLMs en el CPD del banco para los pilotos de AI for ITOps y AI for processes.</li>
+      <li><strong>Gobierno y seguridad:</strong> definí el modelo de gobierno de pilotos de IA en el país en conjunto con el área de Strategy &amp; Control; toda iniciativa de IA pasa por revisión de Arquitectura de Seguridad y Riesgos, exigiendo guardrails y monitoreo a los proveedores.</li>
+      <li><strong>Regulación:</strong> traduje la nueva regulación peruana de IA en reglas de diseño: los agentes de cara al cliente se identifican como IA y el contenido generado se etiqueta.</li>
     </ul>
   </div>
 
@@ -278,8 +286,8 @@
       <div class="job-date">2019 — 2024</div>
     </div>
     <ul>
-      <li>Product Owner y luego Sponsor de la transformación del core bancario Horizon Alpha (caso de liderazgo abajo); llegué a liderar ~50 personas (20 internas y 30 externas de cuatro consultoras) en arquitectura Core, APX y Host, y a movilizar a más de 100 de distintas áreas del país y del Holding, gestionando el presupuesto de capacidad por costo de FTE.</li>
-      <li>Impulsé la migración transaccional de legacy a NextGen del 5% (2018) al 71% (2026): el volumen transaccional creció 5x mientras el costo solo 2x (2020–2024).</li>
+      <li>Product Owner y luego Sponsor de la transformación del core bancario Horizon Alpha (caso de liderazgo abajo), gestionada con Scrum; llegué a liderar ~50 personas (20 internas y 30 externas de cuatro consultoras) en arquitectura Core, APX y Host, movilicé a más de 100 de distintas áreas del país y del Holding, y gestioné el presupuesto de capacidad por costo de FTE.</li>
+      <li>Inicié la migración transaccional de legacy a NextGen desde 0% (2018) y la entregué en 42% (2022); hoy alcanza el 71% (2026). El volumen transaccional creció 5x mientras el costo solo 2x (2020–2024).</li>
       <li>Referente de Ingeniería en el equipo de Innovation Leadership del banco.</li>
     </ul>
   </div>
@@ -345,8 +353,7 @@
   </div>
   <p>BBVA Perú necesitaba evolucionar su core bancario para lanzar nuevos productos digitales sin poner en riesgo la operación crítica. Lideré la estrategia de esa evolución: 11 de las 16 capacidades reutilizables del nuevo core implementadas en las capas de datos, arquitectura bancaria y multicanal, para que cada producto se construya encima en lugar de volver a desarrollar la gestión de clientes, consentimientos o firmas.</p>
   <ul>
-    <li>Habilitó la transformación de Banca Retail (acceso, consentimientos, posición global y movimientos en la app móvil) y procesos de Banca Empresa (pagos masivos de nómina, multifirma de operaciones y la evolución de la app móvil de empresas).</li>
-    <li>Implementé la arquitectura funcional del core sobre las arquitecturas técnicas del banco —servicios (ASO), backend (APX), middleware (SEMaaS), batch (LRABatch), frontend (Cells Web)— con los equipos globales de arquitectura del Grupo BBVA, manteniendo el sistema modular y escalable.</li>
+    <li>Habilitó la transformación de Banca Retail (acceso, consentimientos, posición global y movimientos en la app móvil) y procesos de Banca Empresa (pagos masivos de nómina, multifirma, app móvil de empresas), implementando el core funcional sobre las arquitecturas técnicas del banco (ASO, APX, SEMaaS, LRABatch, Cells Web) con los equipos globales de arquitectura del Grupo.</li>
     <li>Movilicé a más de 100 personas del país y del Holding para implantar cada release del core Alpha (más de 1,500 componentes) en menos de un trimestre, con automatizaciones de calidad: el primer país del Grupo con una implantación sin impacto en producción.</li>
   </ul>
   <div class="stat-row">
@@ -384,14 +391,14 @@
 <div class="section-label">Asignaciones internacionales</div>
 <div class="cards">
   <div class="card">
-    <div class="card-meta">2018 · Madrid, España</div>
-    <h4>Arquitectura de microservicios y gRPC</h4>
-    <p>Diseñé la nueva arquitectura de microservicios en contenedores del banco, basada en gRPC y desplegable sobre la plataforma de Cloud híbrida de BBVA, trabajando directamente con el equipo global de arquitectura del Grupo.</p>
-  </div>
-  <div class="card">
     <div class="card-meta">2025 · Madrid, España — Programa Internacional PDI</div>
     <h4>Equipo de Arquitectura de IA del Grupo</h4>
     <p>Me incorporé al equipo de Arquitectura de IA del Holding para ayudar a diseñar la arquitectura de IA agéntica del Grupo: una arquitectura de referencia y el Decision Framework para elegir la tecnología adecuada para cada caso de uso.</p>
+  </div>
+  <div class="card">
+    <div class="card-meta">2018 · Madrid, España</div>
+    <h4>Arquitectura de microservicios y gRPC</h4>
+    <p>Diseñé la nueva arquitectura de microservicios en contenedores del banco, basada en gRPC y desplegable sobre la plataforma de Cloud híbrida de BBVA, trabajando directamente con el equipo global de arquitectura del Grupo.</p>
   </div>
 </div>
 <p class="cards-note">En el día a día, coordinación con los equipos internacionales de arquitectura del Grupo BBVA en España, México, Colombia, Argentina y Turquía.</p>
@@ -410,39 +417,39 @@
   </div>
 </div>
 
-<div class="section-label">Proyectos open source destacados — github.com/Root1V</div>
+<div class="section-label">Laboratorio open source — github.com/Root1V</div>
 <div class="two-col">
   <div>
     <div class="proj">
       <div class="proj-name"><span class="proj-dot" style="background:var(--c-prometheus)"></span>prometheus-inference-platform</div>
-      <div class="proj-desc">Gateway de inferencia de LLM self-hosted (llama.cpp, MLX, vLLM, SGLang) con autenticación JWT, autorización por modelo y trazas con OpenTelemetry.</div>
+      <div class="proj-desc">Gateway de inferencia de LLM self-hosted (llama.cpp, MLX, vLLM, SGLang): auth JWT, autorización por modelo, OpenTelemetry.</div>
     </div>
     <div class="proj">
       <div class="proj-name"><span class="proj-dot" style="background:var(--c-mercatus)"></span>mercatus-agentic-payments</div>
-      <div class="proj-desc">Framework de comercio agéntico autónomo con adaptadores de liquidación intercambiables para x402 (USDC) y AP2 (basado en mandatos).</div>
+      <div class="proj-desc">Framework de comercio agéntico con adaptadores de liquidación x402 (USDC) y AP2 (mandatos).</div>
     </div>
     <div class="proj">
       <div class="proj-name"><span class="proj-dot" style="background:#14b8a6"></span>veritium-document-intelligence</div>
-      <div class="proj-desc">Inteligencia documental agéntica: arquitectura hexagonal, extracción ReAct acotada, motor de validación con reglas CEL, grounding determinista, OCR intercambiable, trazas con OpenTelemetry.</div>
+      <div class="proj-desc">Inteligencia documental agéntica: extracción ReAct acotada, validación con reglas CEL, grounding determinista.</div>
     </div>
   </div>
   <div>
     <div class="proj">
       <div class="proj-name"><span class="proj-dot" style="background:var(--c-aerarium)"></span>aerarium-agentic-banking</div>
-      <div class="proj-desc">Ledger de partida doble en Rust para comercio agéntico: agentes de IA como titulares de cuenta de pleno derecho, autorizaciones hold-to-capture.</div>
+      <div class="proj-desc">Ledger de partida doble en Rust donde los agentes de IA son titulares de cuenta (hold-to-capture).</div>
     </div>
     <div class="proj">
       <div class="proj-name"><span class="proj-dot" style="background:var(--c-synaptum)"></span>synaptum-framework</div>
-      <div class="proj-desc">Mi propio runtime y framework de agentes para Python: checkpoint/resume, identidad determinista de cada paso, sin dependencias obligatorias.</div>
+      <div class="proj-desc">Runtime de agentes en Python: checkpoint/resume, identidad determinista de cada paso, sin dependencias.</div>
     </div>
     <div class="proj">
       <div class="proj-name"><span class="proj-dot" style="background:#f97316"></span>aeon-agent-harness</div>
-      <div class="proj-desc">Plataforma Harness self-hosted para agentes: ejecución durable sobre Temporal, evidencia tipada, políticas fuera del modelo, memoria gobernada; interoperable con LangGraph, CrewAI, OpenAI/Claude Agent SDKs.</div>
+      <div class="proj-desc">Harness de agentes self-hosted sobre Temporal: evidencia tipada, políticas fuera del modelo, memoria gobernada.</div>
     </div>
   </div>
 </div>
 
-<div class="section-label">Certificaciones y formación</div>
+<div class="section-label">Formación continua</div>
 <div class="panel">
   <div class="cert-grid">
     <div class="cert-row">
