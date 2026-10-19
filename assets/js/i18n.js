@@ -82,7 +82,7 @@
       "tl6.h4": "Arquitecto de Soluciones / Arquitecto de TI — Equifax",
       "tl6.p": "Arquitecto de soluciones responsable del diseño de proyectos críticos y estratégicos de la empresa (Autoservicio, Smart SVI, Datamart Financiero) y de pipelines de procesamiento de datos a gran escala (OSTRA).",
       "tl7.h4": "Líder Técnico de Software — CSTI, Softmarkperu, Universidad JFSC",
-      "tl7.p": "Lideré equipos de desarrollo multidisciplinarios para construir sistemas en Java/Spring, PHP y .NET para clientes de salud, telecomunicaciones y sector público: la base práctica en la que todavía se apoyan mis decisiones de arquitectura.",
+      "tl7.p": "Lideré equipos de desarrollo multidisciplinarios para construir sistemas en Java/Spring, Python y .NET para clientes de salud, telecomunicaciones y sector público: la base práctica en la que todavía se apoyan mis decisiones de arquitectura.",
 
       "cert.label": "Formación",
       "cert.h2": "Aprendizaje continuo",
