@@ -48,7 +48,7 @@ Líder de Arquitectura Empresarial, IA y Cloud con más de 15 años de trayector
 
 - Lideré la evolución de la plataforma de servicios y APIs del banco (ASO), definí los estándares de microservicios y arquitectura basada en eventos para que las aplicaciones puedan integrarse de forma robusta y escalable entre legacy y NextGen.
 
-### Arquitecto de Soluciones / Arquitecto de TI — Equifax | 2015 — 2016
+### Arquitecto de Soluciones / Arquitecto de TI — Equifax | 2014 — 2016
 
 - Diseñé las arquitecturas de proyectos críticos (Autoservicio, Smart SVI, Datamart Financiero) y de pipelines de procesamiento de grandes volúmenes de datos (OSTRA).
 
